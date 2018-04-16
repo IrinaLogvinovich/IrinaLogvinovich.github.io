@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang = "ru">
+  <head>
+    <meta charset = "utf-8">
+    <title>HTML Academy: Нёрдс</title>
+    <link href = "https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel = "stylesheet">
+    <link rel = "stylesheet" href = "css/normalize.css">
+    <link rel = "stylesheet" href = "css/style.min.css">
+  </head>
+  <body>
+    <header class = "main-header">
+      <div class = "navigation-block">
+        <nav class = "main-navigation">
+          <a>
+            <img src = "img/nerds-logo.svg" alt = "Логотип нёрдс" width = "160" height = "65">
+          </a>
+          <ul class = "main-menu">
+            <li class = "main-menu-bar">
+              <a href = "#studio">студия</a>
+            </li>
+            <li class = "main-menu-bar">
+              <a href = "#clients">клиенты</a>
+            </li>
+            <li class = "main-menu-bar">
+              <a href = "catalog.html">магазин</a>
+            </li>
+            <li class = "main-menu-bar">
+              <a href = "#contacts">контакты</a>
+            </li>
+          </ul>
+          <ul class = "cart-menu">
+            <li class = "cart">
+              <a href = "#cart">
+                корзина
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class = "main-container">
+      <h1 class = "visually-hidden">Сайт студии Нёрдс</h1>
+      <section class = "slider">
+        <h2 class = "visually-hidden">Рекламный слайдер</h2>
+        <div class = "slider-block">
+          <input class = " radio-1 visually-hidden" type = "radio" id = "radio-1" name = "radio-slider" checked>
+          <input class = " radio-2 visually-hidden" type = "radio" id = "radio-2" name = "radio-slider">
+          <input class = " radio-3 visually-hidden" type = "radio" id = "radio-3" name = "radio-slider">
+          <div class = "slider-control">
+            <label for = "radio-1" class = "slider-control-1"></label>
+            <label for = "radio-2" class = "slider-control-2"></label>
+            <label for = "radio-3" class = "slider-control-3"></label>
+          </div>
+          <ul class = "slider-list">
+            <li class = "slider-1">
+                <p class = "slogan">Долго, дорого,<br> скрупулезно.</p>
+                <p class = "about-design">Математически выверенный дизайн<br>для вашего сайта или мобильного приложения.</p>
+                <a  class = "button" href = "catalog.html">узнать больше</a>
+            </li>
+            <li class = "slider-2">
+              <p class = "slogan">Любим математику как никто другой</p>
+              <p class = "about-design">Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+              <a  class = "button" href = "catalog.html">узнать больше</a>
+            </li>
+            <li class = "slider-3">
+                <p class = "slogan">Только ночь, <br>только хардкор</p>
+                <p class = "about-design">Работать днем, как все? Мы против этого.<br>Ближе к полуночи работа только начинается.</p>
+                <a class = "button" href = "catalog.html">узнать больше</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class = "container">
+        <section class = "service">
+          <h2 class = "visually-hidden">Предлагаемые услуги</h2>
+          <section class = "web-site">
+            <h3>веб-сайты</h3>
+            <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+            <a class = "button" href = "#cart">заказать</a>
+          </section>
+          <section class = "application">
+            <h3>приложения</h3>
+            <p>Покорите топ-10 приложений в AppStore и Google Play!</p>
+            <a class = "button" href = "#cart">заказать</a>
+          </section>
+          <section class = "presentation">
+            <h3>презентации</h3>
+            <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+            <a class = "button" href = "#cart">заказать</a>
+          </section>
+        </section>
+        <section class = "about-us">
+          <h2 class = "visually-hidden">О нас</h2>
+          <div class = "description-block">
+            <p class = "description">Мы &mdash; маленькая, но гордая дизайн-студия из Краснодара.</p>
+            <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+            <p class = "about-work desc">выполняем заказы на разработку:</p>
+            <ul class = "presents">
+              <li>Веб-сайтов любой сложности</li>
+              <li>Мобильных приложений для iOS и Android</li>
+              <li>Слайдшоу и видео для корпоративных презентаций</li>
+            </ul>
+          </div>
+          <div class = "about-work-block">
+            <p class = "about-work">с 2004 года любим точность во всем:</p>
+            <table class = "statistics">
+              <tr>
+                <td class = "percent">146<span>%</span>
+                </td>
+                <td class = "percent">100<span>%</span>
+                </td>
+                <td class = "percent">50<span>%</span>
+                </td>
+              </tr>
+              <tr>
+                <td class = "values">Уровень самоотдачи</td>
+                <td class = "values">Соблюдение сроков</td>
+                <td class = "values">Минимальная предоплата</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+        <section class = "partners">
+          <h2 class = "visually-hidden">Список наших партнеров</h2>
+          <ul class = "partners-list">
+            <li>
+              <a class = "html-academy" href = "https://htmlacademy.ru/intensive/htmlcss">
+                <img src = "img/logo-1.png" alt = "HTML academy" width = "199" height = "68">
+              </a>
+            </li>
+            <li>
+              <a class = "barbershop" href=#>
+                <img src = "img/logo-2.png" alt = "Borodinsky" width = "209" height= "90">
+              </a>
+            </li>
+            <li>
+              <a class = "pink" href=#>
+                <img src = "img/logo-3.png" alt = "Pink" width = "185" height= "52">
+              </a>
+            </li>
+            <li>
+              <a class = "mishka" href=#>
+                <img src = "img/logo-4.png" alt = "Mishka" width = "173" height= "84">
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class = "main-footer">
+      <div class = "contact-block">
+      <iframe  class = "map" src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d499.6497758352821!2d30.32253612929504!3d59.93879419886729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1522068064761"  height = "415" style = "border:0" allowfullscreen></iframe>
+        <div class = "organization-block">
+            <section class = "organization-contacts">
+            <h2 class = "visually-hidden">Наши контакты</h2>
+            <p class = "organization-name">nёrds design studio</p>
+            <p class = "adress">191186, Санкт-Петербург,<br>
+              ул. Б. Конюшенная, д. 19/8</p>
+            <p class = "phone"> тел. +7 (812) 275-75-75 </p>
+            <a class = "button popup-button" href = "writeus.html">напишите нам</a>
+          </section>
+        </div>
+      </div>
+      <div class = "social-block">
+        <ul class = "social-bars">
+          <li class = "vkontakte">
+            <a class = "button social-button" href = "https://www.vk.com">
+              <img src = "img/vk-icon.svg" alt = "вконтакте" width = "26" height= "15">
+              <span class = "visually-hidden">ВКонтакте</span>
+            </a>
+          </li>
+          <li class = "facebook">
+            <a class = "button social-button" href = "https://www.facebook.com">
+              <img src = "img/fb-icon.svg" alt = "фейсбук" width = "12" height = "22">
+              <span class = "visually-hidden">Фейсбук</span>
+            </a>
+          </li>
+          <li class = "instagram">
+            <a class = "button social-button" href = "https://www.instagram.com">
+              <img src = "img/insta-icon.svg" alt = "instagram" width = "21" height = "21">
+              <span class = "visually-hidden">Инстаграм</span>
+            </a>
+          </li>
+        </ul>
+        <div class = "social-description">
+          <p class = "friendship">Давайте дружить, это выгодно!</p>
+          <p class = "discount">Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+      </div>
+      <section class = "comment-block">
+        <h2>Напишите нам</h2>
+        <form method = "post" action = "https://echo.htmlacademy.ru" class = "write-us">
+          <p class = "user-name">
+            <label  for = "user-name">Ваше имя:</label>
+            <input id = "user-name" type = "text" name = "user-name" placeholder = "Имя Фамилия">
+          </p>
+          <p class = "user-email">
+            <label  for = "user-email">Ваш e-mail:</label>
+            <input id = "user-email" type = "email" name = "user-email" placeholder = "email@example.com">
+          </p>
+          <p class = "comment-area">
+            <label for = "user-comment">Текст письма:</label>
+              <textarea id = "user-comment" name = "user-comment" placeholder = "В свободной форме"></textarea>
+            </p>
+          <button class = "button" type = "submit" name = "send-form">Отправить</button>
+        </form>
+        <button class = "close" type = "button" name = "close">закрыть</button>
+      </section>
+    </footer>
+    <script src = "js/script.min.js"></script>
+  </body>
+</html>
